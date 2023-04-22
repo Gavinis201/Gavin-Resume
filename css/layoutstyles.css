@@ -1,0 +1,135 @@
+
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    
+}
+
+.Common {
+    
+    /* border: 1px solid rgb(11, 11, 11);  */
+    position: absolute;
+} 
+
+.mount {
+    background-image: url('../Images/nightsky.jpeg');
+
+    
+}
+    
+.header {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 540px;
+    text-align: justify;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-right: 90px;
+    /* position: fixed; */
+    /* border-bottom: white; */
+    font-size: 11pt;
+    text-decoration: none;
+    font-weight: 800;
+    z-index: 1;
+}
+
+.middle {
+padding-top: 140px;
+text-align: center;
+font-size: 65pt;
+color: white;
+}
+
+.mid {
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+    
+}
+
+.centertext {   
+
+    text-align: center;
+ 
+}
+.center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+
+.mainbody {
+top: 539px;
+left: 0px;
+right: 0px;
+bottom: 39px;
+background-color: var(--bs-body-bg);
+border-bottom: white;
+
+}
+
+
+
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+    border-bottom: white;
+    border-right: white;
+    border-left: white;
+    border-top: white;
+}
+
+.subheader {
+    float: right;
+}
+
+.font1 {
+
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    color: white;
+}
+
+.font2 {
+    font-size: 18;
+    font-weight: 800;
+}
+
+.button {
+ 
+        background-color: #04AA6D;
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+      }
+      
+
+.button3 {
+     border-radius: 8px;
+}
+
+.bold {
+    font-weight: bold;
+}
